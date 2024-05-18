@@ -7,16 +7,14 @@ int buzzer = 8;
 int vermelho = 10;
 int verde = 9;
 
-void setup ()
-{
+void setup(){
   s.attach(SERVO);
   pinMode(vermelho, OUTPUT);
   pinMode(verde, OUTPUT);
   s.write(0); // Inicia motor posição zero
 }
 
-void loop()
-{
+void loop(){
   descer();
   delay(1000);
   subir();
