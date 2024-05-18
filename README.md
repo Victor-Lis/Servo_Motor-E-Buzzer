@@ -1,4 +1,6 @@
 # Servo Motor e Buzzer
+Projeto desenvolvido por conta do pedido dos meus professores na aula de S.E.(Sistemas Embarcados), fiz junto com o meu amigo [Luiz-Otávio](https://github.com/luizOASSilva), foi uma troca de conhecimentos muito bacana!
+
 Esse projeto é bem simples, a ideia dele é basicamente simular uma catraca de trem, onde:
 ```
 Quando o trem estiver próximo a catraca irá descer(nome de umas das funções) além de emitir um aviso sonóro e visual através do led vermelho
