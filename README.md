@@ -13,12 +13,12 @@ Quando o trem já tiver passado a catraca irá subir(nome de umas das funções)
 Utilizei a lib "Servo" para manipular o servo motor e facilitar alguns processos...
 
 #### Importando lib Servo
-```
+```c++
 #include <Servo.h>
 ```
 
 #### Declarando váriaveis
-```
+```c++
 #define SERVO 6 // Entrada do pino laranja do servo motor
 
 Servo s; // Variável Servo
@@ -35,7 +35,7 @@ Responsabilidades da função "subir()":
 - Definir a "catraca"(servo motor) a 0°;
 - Ligar led verde
 - Desligar led vermelho
-```
+```c++
 void subir(){
   noTone(buzzer);
   s.write(0);
@@ -50,7 +50,7 @@ Responsabilidades da função "subir()":
 - Definir a "catraca"(servo motor) a 90°;
 - Desligar led verde
 - Ligar led vermelho
-```
+```c++
 void descer(){
   tone(buzzer, 500, 100);
   s.write(90);
@@ -60,7 +60,7 @@ void descer(){
 ```
 
 ### Chamando funções
-```
+```c++
 void loop() {
   descer();
   delay(1000);
